@@ -1,0 +1,83 @@
+body{
+    background-color: rgb(197, 227, 238);
+}
+h1{
+ display: inline-block;
+ margin: auto;
+  padding: 20px 280px;
+font-size: clamp(2rem, 4vw, 3rem);
+  text-align: center;
+    color: lightskyblue;
+    background-color: lightskyblue;
+    background-image: url(fundo-galaxia-realista_23-2148991322.avif)
+
+}
+.cabeçalho {
+    font-size: clamp(1rem, 4vw, 3rem);
+    font-family: fantasy;
+    flex: auto;
+    text-align: center;
+
+}
+
+h2 {
+    color: lightskyblue;
+    background-image: url(fundo-galaxia-realista_23-2148991322.avif);
+    font-size: clamp(2rem, 4vw, 3rem);
+    text-align: center;
+ display: inline-block;
+  padding: 10px 280px;
+   margin: auto;
+}
+.tec {
+ font-size: clamp(1rem, 4vw, 3rem);
+font-family: fantasy;
+  text-align: center;
+}
+.imagens {
+     width: 250px;
+     height: 250px;
+     display: flexbox;
+     gap: calc(20px 35px);
+     display: grid;
+  grid-template-columns: repeat(3, 1fr);
+   border: 1px solid #b189d4;
+  border-radius: 8px;
+  padding: 16px;
+  box-shadow: 0 4px 8px rgba(107, 85, 118, 0.1);
+}
+h3{
+     margin: auto;
+     color: lightskyblue;
+    background-image: url(fundo-galaxia-realista_23-2148991322.avif);
+    font-size: clamp(2rem, 4vw, 3rem);
+    text-align: center;
+ display: inline-block;
+  padding: 10px 280px;
+}
+.ferramentas{
+     font-size: clamp(1rem, 4vw, 3rem);
+    font-family: fantasy;
+    flex: auto;
+      text-align: center;
+}
+h4{
+    color: lightskyblue;
+    background-image: url(fundo-galaxia-realista_23-2148991322.avif);
+    font-size: clamp(2rem, 4vw, 3rem);
+    text-align: center;
+ display: inline-block;
+  padding: 10px 280px;
+   margin: auto;
+}
+.link{
+      font-size: clamp(1rem, 4vw, 3rem);
+    font-family: fantasy;
+    flex: auto;
+      text-align: center;
+color: midnightblue;
+
+}
+a:hover{
+  color: #a36cd3;
+}
